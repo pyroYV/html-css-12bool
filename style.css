@@ -1,0 +1,7 @@
+[class*="col-"]{
+    background-color: skyblue;
+}
+
+.col-xl-6  .row > *{
+    background-color: green;
+}

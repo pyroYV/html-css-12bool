@@ -1,7 +1,8 @@
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid;
  }
  
  .container-fluid {
@@ -464,6 +465,9 @@
     .col-lg-offset-11 {
        margin-left: calc((100% / 12) * 11);
     }
+    .col-xl-offset-0{
+        margin-left: calc((100% / 12) * 0);
+    }
  
  }
 
@@ -575,4 +579,14 @@
        margin-left: calc((100% / 12) * 11);
     }
  
+ }
+
+ /* misc */
+
+ .p-1{
+    padding: 10px;
+ }
+
+ .t-mid{
+    text-align: center;
  }
